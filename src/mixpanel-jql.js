@@ -30,7 +30,6 @@ function executeQuery (query) {
         var result = {}
         result.data = JSON.parse(returnFromServer)
         result.query = query
-        console.log("returning query : " + query.hashCode())
         resolve(result)
       })
     })
@@ -85,10 +84,6 @@ let queries = {
 
     this.toString = function () {
       return this.query
-    }
-
-    this.hashCode = function () {
-      return hash(this.toString())
     }
 
     return _.clone(this)
