@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-jql-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "https": "1.0.0",
     "moment": "2.22.1",
