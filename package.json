@@ -1,7 +1,27 @@
 {
+  "name": "mixpanel-jql-js",
+  "version": "0.0.1",
   "dependencies": {
     "https": "1.0.0",
     "moment": "2.22.1",
     "underscore": "1.9.0"
-  }
+  },
+  "description": "mixpanel-jql-js ===",
+  "main": "./src/mixpanel-jql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMarafon/mixpanel-jql-js.git"
+  },
+  "keywords": [
+    "mixpanel"
+  ],
+  "author": "Thiago Marafon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TMarafon/mixpanel-jql-js/issues"
+  },
+  "homepage": "https://github.com/TMarafon/mixpanel-jql-js#readme"
 }
