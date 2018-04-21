@@ -1,20 +1,20 @@
-# mixpanel-jql-js
+mixpanel-jql-js
+===
 
-#How to install
-```javascript
-npm install mixpanel-jql-js --save
-```
+## Installation
 
-#How to use it: 
+    npm install mixpanel-jql-js --save
 
-## Initialization
+## How to use it: 
+
+### Initialization
 ```javascript
 let mixpanel = require('mixpanel-jql-js')
 
 mixpanel.init('sfh78hsfsdfh030h5i3398fh9f8') //MixPanel key
 ```
 
-## Complete example
+### Complete example
 ```javascript
 let mixpanel = require('mixpanel-jql-js')
 mixpanel.init('sfh78hsfsdfh030h5i3398fh9f8')
