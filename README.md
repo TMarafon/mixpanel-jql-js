@@ -34,7 +34,7 @@ var query = queries.Query()
 query.setPeriod(queries.periods.custom(moment().subtract(1, 'days'), moment()))
 query.setEvent("Event Name")
 query.setMap(queryMap)
-query.setFilter(queries.getUserProperty('user_id') + "== '9FDH893H989A913D3F143927'")
+query.setFilter(queries.getUserProperty('userId') + "== '9FDH893H989A913D3F143927'")
 
 mixpanel.executeQuery(query).then(function (result) {
   console.log(result.data)
