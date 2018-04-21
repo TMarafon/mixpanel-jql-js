@@ -16,7 +16,7 @@
     "url": "git+https://github.com/TMarafon/mixpanel-jql-js.git"
   },
   "keywords": [
-    "mixpanel"
+    "mixpanel", "jql", "query", "javascript"
   ],
   "author": "Thiago Marafon",
   "license": "MIT",
